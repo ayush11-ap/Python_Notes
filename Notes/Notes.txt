@@ -1,0 +1,17 @@
+## Episode 1:
+    - Python Inner Working 
+
+    - Python code is converted into [Byte Code](which is hidden in some cases it's visible like while import and all) & then it is fetched in the [Python Virtual Machine] inside this program/scripts are executed.
+        - 1. first it's compile[slang] to Byte Code which is [low level] & [Platform Independent]
+        - 2. Byte Code runs faster. .pyc is a compiled python [aka frozen Binaries]
+        - 3. Python also uses diff algorithms internally for doing changes in [313(vesion of python)].pyc
+
+    - PVM - Python Virtual Machine
+        - Bcoz of PVM python is known as the interpreted language.
+        - Byte Code is NOT Machine Code
+            - Machine Code can give direct instruction to the Apple/intel chip i.e hardware
+        - Byte Code is python specific interpretation
+        - cpython it's a standard implementation
+            - various types of python : jython, Iron Python, Stackless, PyPy, etc.
+
+Till 03_Inner Working
