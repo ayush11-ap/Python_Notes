@@ -14,4 +14,13 @@
         - cpython it's a standard implementation
             - various types of python : jython, Iron Python, Stackless, PyPy, etc.
 
+## Episode 2:
+    ~ Errors:
+        - NameError: name 'variableName' is not defined
+        
+    - with python `os` is bydefault library
+        - os.getcwd()       -> gives current working directory
+
+    - To reload Shell : from importlib import reload
+        - reload(`fileName`)
 Till 03_Inner Working
