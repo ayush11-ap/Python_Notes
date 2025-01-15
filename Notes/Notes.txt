@@ -17,6 +17,7 @@
 ## Episode 2:
     ~ Errors:
         - NameError: name 'variableName' is not defined
+        - keyError: "keyName" - there is no key in the dictionary, error in dictionary
 
     - with python `os` is bydefault library
         - os.getcwd()       -> gives current working directory
@@ -27,5 +28,27 @@
     - mutable : can be changed
     - Garbage collection is done automatically in Python
     - watch it again
+    
+    - # --> comments in js
+
+## Episode 3: Object Types / Data Types
+    - [] : brackets
+    - () : paranthesis
+    - {} : curly braces / braces
+    - Number : int, float, complex --> 1, 1.0, 1+2j
+    - String : str --> 'ayush'
+    - List : list --> [1, 2, 3]
+    - Tuple : tuple --> (1, 2, 3)
+    - Dictionary : dict --> {'key': 'value'}
+
+    - Set : set('abbc') --> {'a', 'b', 'c'}
+
+    - File : file --> open('file.txt', 'r')
+
+    - Boolean : bool --> True, False
+    - None : NoneType --> None
+    - Functions, modules, classes
+    - Advance: Decorators, Generators, Iterators, MetaProgramming
+
 
 Till 05_Immutable and mutable in python
