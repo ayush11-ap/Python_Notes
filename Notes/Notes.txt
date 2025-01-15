@@ -51,4 +51,4 @@
     - Advance: Decorators, Generators, Iterators, MetaProgramming
 
 
-Till 05_Immutable and mutable in python
+Till 06_Python Data Types
