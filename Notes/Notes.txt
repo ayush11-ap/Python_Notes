@@ -51,4 +51,8 @@
     - Advance: Decorators, Generators, Iterators, MetaProgramming
 
 
-Till 06_Python Data Types
+## Episode 4:
+    - In Python data type is stored in the memory not in the variable like: int, string, etc.
+
+
+Till 07_Internal working of python 
