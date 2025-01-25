@@ -54,5 +54,33 @@
 ## Episode 4:
     - In Python data type is stored in the memory not in the variable like: int, string, etc.
 
+    # Numbers:
+        - () has high preference while solving the problems
+            eg: (x + y) * z     --> first the paranthesis will be solve and after that multiplied by z
 
-Till 07_Internal working of python 
+        - Difference between repr(), str(), print():
+        repr(): Returns a string that represents the object as it is, typically used for debugging. It aims to be unambiguous.
+            eg: x = [1, 2, 3]
+                print(repr(x))  # Output: '[1, 2, 3]'
+            
+        str(): Returns a readable or user-friendly string representation of the object.
+            eg: x = [1, 2, 3]
+                print(str(x))  # Output: '[1, 2, 3]'
+            
+        print(): Displays the output of str() (by default) to the console.
+            eg: x = [1, 2, 3]
+                print(x)  # Output: [1, 2, 3]
+
+        - math library:
+            - math.floor(3.14) --> 3 : returns the largest integer less than or equal to a given number.
+                eg: math.floor(-3.14) --> -4
+            - math.trunc(3.14) --> 3 : returns the truncated integer part of a number.
+                eg: math.trunc(-3.14) --> -3
+        
+        - literals
+            - oct(10) --> '0o12' : returns the octal representation of a number.
+            - hex(10) --> '0xa' : returns the hexadecimal representation of a number.
+            - bin(10) --> '0b1010' : returns the binary representation of a number.
+            - int('64', 8) --> 52 : converts a string to an integer with the given base.
+
+Completed till 08_Number in depth in Python
