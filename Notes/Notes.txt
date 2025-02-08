@@ -83,4 +83,48 @@
             - bin(10) --> '0b1010' : returns the binary representation of a number.
             - int('64', 8) --> 52 : converts a string to an integer with the given base.
 
-Completed till 08_Number in depth in Python
+
+    # Strings:
+        - name = "Ayush"
+          print(name[0]) --> A
+
+        - Slicing : name[0:3] --> Ayu
+
+        - slicing with num_list = "0123456789"
+            - num_list[::2] --> 02468
+            - num_list[::-1] --> 9876543210
+            - num_list[0:7:3] --> 036
+            - num_list[2:9:4] --> 26
+
+        - Methods
+            - name = "  Ayush    "
+                - name.upper() -->    AYUSH   
+                - name.lower() -->    ayush   
+                - name.strip() --> Ayush
+                - name.replace("Ayush", "Pawar") --> Pawar
+            
+            - list = "1,2,3,4,5"
+                - list.split(",") --> ['1', '2', '3', '4', '5']
+                    split() : splits the string into a list of substrings.
+
+            - name = "aayush"
+                - print(name.find("y")) --> 2
+                    find() : returns the index of the first occurrence of the substring.
+                - print(name.count("a")) --> 2 
+                    count() : returns the number of occurrences of a substring in the given string.
+
+        - new_list = ["Graphes", "is", "good"] 
+            - print("-".join(new_list)) --> Graphes-is-good
+                join() : joins the elements of an iterable to the end of the string.
+
+        - len(variableName) : returns the length of the string.
+
+        - food = "Indian, \"Misal is Awesome\""
+            - print(food) --> Indian, "Misal is Awesome"
+                Escape Character : \
+                - r : raw string
+                    eg: print(r"Indian, \"Misal is Awesome\"") --> Indian, \"Misal is Awesome\"
+
+        - print("Ayush" in name) --> True
+
+Completed till 09_Strings in Python
